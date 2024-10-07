@@ -7,10 +7,11 @@ CREATE TABLE TB_celular (
 	modelo NVARCHAR(50),
 	capacidade NVARCHAR(10),
 	tamanho_tela NVARCHAR(10),
-	preço NVARCHAR(10),
+	preco NVARCHAR(10),
 	valor_parcela NVARCHAR(10),
-	cor NVARCHAR(10),
+	cor NVARCHAR(25),
 	ultimas_pecas INT
 );
+
 
 SELECT * FROM TB_celular;
